@@ -1,0 +1,5 @@
+- `-t` -> name tag for docker build
+- `-a` -> force to show everything
+- `-q` -> limits the information of a list
+- `-f` -> force removal of a running container
+- `-d` -> dont open docker-terminal in current console
