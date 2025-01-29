@@ -18,3 +18,6 @@
 * `. git pull` -> Holt die neuesten Änderungen vom Remote-Repository und führt sie in den aktuellen Branch ein.  
 * `. git push` -> Überträgt die lokalen Commits an das Remote-Repository.  
 * `. git remote add origin <repository_url>` -> Fügt ein Remote-Repository mit dem Namen "origin" hinzu. (Oft verwendet, um dein lokales Repository mit einem auf GitHub oder GitLab zu verbinden)
+#### Git branches löschen 
+* `. git branch --delete <branch_name>` -> löscht einen lokalen branch
+* `. git branch --delete --remote <origin/branch_name>` -> löscht einen remote branch
