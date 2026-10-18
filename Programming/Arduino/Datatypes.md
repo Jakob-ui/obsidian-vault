@@ -8,4 +8,5 @@ Manche Compiler sind schlau genug um zu wissen das const im Code nicht veränder
 * `int` Normale integer Deklaration
 * `bool` Normale boolean Deklaration
 *  `float` Normale float Deklaration
-*  `unsigned long`Lange int, meistens benutzt für `millis()`
+*  `unsigned long`Lange int, meistens benutzt für `millis()` ^4e6c8b
+*  `volatile <Datatype>`Eine volatile Variable wird immer frisch aus dem Speicher geladen

@@ -1,12 +1,12 @@
 ### Häufigste Commands
 #### Erstellen
 * `git init` -> Initialisiert ein neues Git-Repository im aktuellen Verzeichnis.  
-* `git clone <repository_url>` -> Erstellt eine lokale Kopie eines bestehenden Git-Repositories.  
+* `git clone <repository_url>` -> Erstellt eine lokale Kopie eines bestehenden Git-Repositories.  [Erweiterungen](obsidian-vault/Git/Tags.md)
 #### Commits
 * `git add <filename>` -> Fügt eine Datei zur Staging-Area hinzu, um sie für den nächsten Commit vorzubereiten.  
 * `git add .` -> Fügt alle geänderten Dateien im aktuellen Verzeichnis und seinen Unterverzeichnissen zur Staging-Area hinzu.  
 * `git commit -m "Commit message"` -> Erstellt einen neuen Commit mit den Änderungen, die sich in der Staging-Area befinden.  
-
+* `git commit -am "Commit message"` -> Erstellt einen neuen commit und added alle files in den Commit
 #### Git status
 * `git status` -> Zeigt den Status des Repositorys an, einschließlich geänderter, hinzugefügter und gelöschter Dateien.  
 * `git log` -> Zeigt die Commit-Historie des aktuellen Branches an.  
@@ -21,3 +21,7 @@
 #### Git branches löschen 
 * `git branch --delete <branch_name>` -> löscht einen lokalen branch
 * `git branch --delete --remote <origin/branch_name>` -> löscht einen remote branch
+#### Git revert Commit
+
+* `git log` -> zeigt alle letzten commits
+* `git revert <id-des-Commits>` -> revertet den Commit mit der ID

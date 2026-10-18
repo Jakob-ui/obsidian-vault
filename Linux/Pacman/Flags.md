@@ -1,0 +1,3 @@
+- S stands for sync (is also used for updating)
+- y is for refresh (local cache)
+- u is for system update

@@ -1,0 +1,4 @@
+- `ls -la`gibt alle Permissions in dem Folder aus
+- `id <user>` gibt die UID eines bestimmten Users aus
+- `id <group>` gibt die GUID einer bestimmten gruppe aus
+- `chown -R <user>:<group> <ordner>` Claime einen Ordner für einen User:Group

@@ -1,0 +1,2 @@
+- `docker ps <-a>` Zeigt alle laufenden Docker mit id
+- `Docker exec -it <container_id> bash` Terminal von Docker öffnen (wenn bash nicht geht dann mit sh)

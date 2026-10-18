@@ -5,3 +5,4 @@
 * `-p` -> Zeigt die Änderungen jedes Commits an (Diffs). Z.B. bei `git log -p` oder `git show -p`.  
 * `--oneline` -> Zeigt jeden Commit in einer einzigen Zeile an, um die Übersichtlichkeit zu verbessern. Z.B. bei `git log --oneline`.  
 * `--author="Name"` -> Filtert die Commit-Historie nach einem bestimmten Autor. Z.B. bei `git log --author="Max Mustermann"`. 
+* `-b <branch_name>`Gibt einen gewissen Branch an

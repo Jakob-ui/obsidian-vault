@@ -5,3 +5,6 @@
 #### Delete all images (only when [all containers are stopped](Controll.md#^511183))
 `docker image ls -q | ForEach-Object { docker image rm $_}`
 *optional use <-f> tag to force delete*
+
+#### Delete the volumes in a docker-compose as well:
+`docker-compose down -v`
