@@ -1,0 +1,8 @@
+- Copy inline code
+- Iconize
+- QuickAdd
+- Advanced Tables
+- Commander
+- DataView
+- Highlitr
+- Excalidraw
