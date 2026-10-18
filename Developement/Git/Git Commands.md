@@ -1,7 +1,7 @@
 ### Häufigste Commands
 #### Erstellen
 * `git init` -> Initialisiert ein neues Git-Repository im aktuellen Verzeichnis.  
-* `git clone <repository_url>` -> Erstellt eine lokale Kopie eines bestehenden Git-Repositories.  [Erweiterungen](Git/Tags.md)
+* `git clone <repository_url>` -> Erstellt eine lokale Kopie eines bestehenden Git-Repositories.  [Erweiterungen](Developement/Git/Tags.md)
 #### Commits
 * `git add <filename>` -> Fügt eine Datei zur Staging-Area hinzu, um sie für den nächsten Commit vorzubereiten.  
 * `git add .` -> Fügt alle geänderten Dateien im aktuellen Verzeichnis und seinen Unterverzeichnissen zur Staging-Area hinzu.  
